@@ -62,3 +62,13 @@ urllib3==2.0.7
 wcwidth==0.2.8
 Werkzeug==3.0.1
 wheel==0.41.2
+=======
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+pandas
+joblib
+surprise
+>>>>>>> 8ebbbde23884b2b90c24253f47c228275ee23b78
